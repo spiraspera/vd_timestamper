@@ -1,13 +1,5 @@
 <?
 function vd_timestamper($date, $input_type='', $return_type='timestamp') {
-    // $input_type parameter is optional: dd-mm-yyyy, mm-dd-yyyy, yyyy-mm-dd
-    // $return_type parameter is optional: timestamp (default), dd-mm-yyyy, mm-dd-yyyy, yyyy-mm-dd
-
-    // possible function calls:
-    // vd_timestamper($date='31/12/2016', $input_type='dd-mm-yyyy', $return_type='yyyy-mm-dd');
-    // vd_timestamper($date='31/12/2016', $input_type='dd-mm-yyyy');
-    // vd_timestamper($date='31/12/2016');
-
     // exceptions
     $timestamper_error = 'Timestamper error: ';
     $not_a_string = $timestamper_error . 'date has to be a string!';
